@@ -25,6 +25,7 @@
 
     <!--Back Button-->
     <Button
+        android:id="@+id/btnBack"
         android:layout_width="@dimen/icon2"
         android:layout_height="wrap_content"
         android:text="Back"
