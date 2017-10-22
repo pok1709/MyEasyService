@@ -40,7 +40,7 @@ public class MainFragment extends Fragment {
                         .beginTransaction()
                         .replace(R.id.contentFrangmentMain, new SecondFragment())
                         .addToBackStack(null).commit();
-                //addToBackStack(null) คือ ใส่หน้ากากใหม่แล้ว แล้วจะไปทับหน้ากาเก่า
+                //addToBackStack(null) คือ ใส่หน้ากากใหม่แล้ว แล้วจะไปทับหน้ากาเก่า โดยที่หน้ากากเก่าจะยังอยู่ เมื่อกด Back ก็จะกลับมาหน้ากากแรก
             }// Onclick
         });
     }
